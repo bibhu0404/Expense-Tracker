@@ -1,0 +1,108 @@
+# =========================
+# BACKEND - Spring Boot / Java
+# =========================
+
+# Maven
+Backend/target/
+Backend/.mvn/wrapper/maven-wrapper.jar
+
+# IntelliJ / Java
+Backend/.idea/
+Backend/*.iml
+Backend/*.iws
+Backend/*.ipr
+
+# Spring Boot secrets
+Backend/src/main/resources/application.properties
+Backend/src/main/resources/application.yml
+Backend/src/main/resources/application.yaml
+
+# Environment files
+Backend/.env
+Backend/.env.*
+!Backend/.env.example
+
+# Logs
+Backend/*.log
+Backend/logs/
+
+
+# =========================
+# FRONTEND - React / Vite
+# =========================
+
+# Dependencies
+Frontend/node_modules/
+
+# Build output
+Frontend/dist/
+Frontend/build/
+Frontend/.vite/
+
+# Environment files / secrets
+Frontend/.env
+Frontend/.env.*
+!Frontend/.env.example
+
+# Logs
+Frontend/*.log
+Frontend/npm-debug.log*
+Frontend/yarn-debug.log*
+Frontend/yarn-error.log*
+Frontend/pnpm-debug.log*
+
+# Testing / coverage
+Frontend/coverage/
+
+# Cache
+Frontend/.eslintcache
+Frontend/.cache
+
+
+# =========================
+# IDE / OS
+# =========================
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# VS Code
+.vscode/
+!.vscode/extensions.json
+!.vscode/settings.json
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+
+
+# =========================
+# Environment / Secrets
+# =========================
+
+.env
+.env.*
+!.env.example
+
+# Private keys / certificates
+*.pem
+*.key
+*.p12
+*.jks
+
+
+# =========================
+# Temporary files
+# =========================
+
+*.tmp
+*.temp
+*.swp
+*.swo
