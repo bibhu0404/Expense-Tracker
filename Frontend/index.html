@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Expense Tracker</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<nav>
+    <h2>Expense Tracker</h2>
+
+    <div>
+        <a href="index.html">Dashboard</a>
+        <a href="add-expense.html">Add Expense</a>
+    </div>
+</nav>
+
+
+<div class="container">
+
+    <div class="cards">
+
+        <div class="card">
+            <h3>Total Expense</h3>
+            <h1 id="totalExpense">₹0</h1>
+        </div>
+
+
+        <div class="card">
+            <h3>Total Transactions</h3>
+            <h1 id="totalTransactions">0</h1>
+        </div>
+
+      </div>
+        <div class="table-box">
+          <h2>All Expenses</h2>
+            <div class="filters">
+          <input 
+              id="searchInput"
+              placeholder="Search by title"
+          >
+
+          <button onclick="searchExpense()">
+              Search
+          </button>
+
+          <select id="categoryFilter">
+
+            <option value="">
+                Select Category
+            </option>
+
+            <option value="Food">
+                Food
+            </option>
+
+            <option value="Travel">
+              Travel
+            </option>
+            <option value="Other">
+              Other
+            </option>
+          </select>
+          <button onclick="filterCategory()">
+            Filter
+          </button>
+        </div>
+
+        <table>
+
+            <thead>
+            <tr>
+                <th>Title</th>
+                <th>Amount</th>
+                <th>Category</th>
+                <th>Date</th>
+                <th>Action</th>
+            </tr>
+            </thead>
+
+
+            <tbody id="expenseTable">
+
+            </tbody>
+
+        </table>
+
+
+    </div>
+
+
+</div>
+
+
+<script src="js/dashboard.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,198 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial;
+}
+
+
+body{
+
+    background:#f4f6f8;
+
+}
+
+
+nav{
+
+    background:#222;
+    color:white;
+
+    padding:20px 50px;
+
+    display:flex;
+    justify-content:space-between;
+
+}
+
+
+nav a{
+
+    color:white;
+    text-decoration:none;
+
+    margin-left:20px;
+
+}
+
+
+
+.container{
+
+    width:90%;
+    margin:30px auto;
+
+}
+
+
+
+.cards{
+
+    display:flex;
+    gap:30px;
+
+}
+
+
+
+.card{
+
+    background:white;
+
+    padding:30px;
+
+    width:250px;
+
+    border-radius:15px;
+
+    box-shadow:0 5px 15px #ddd;
+
+}
+
+
+
+.table-box{
+
+    background:white;
+
+    margin-top:40px;
+
+    padding:25px;
+
+    border-radius:15px;
+
+}
+
+
+
+table{
+
+    width:100%;
+
+    margin-top:20px;
+
+    border-collapse:collapse;
+
+}
+
+
+
+th{
+
+    background:#222;
+
+    color:white;
+
+}
+
+
+
+td,th{
+
+    padding:15px;
+
+    text-align:center;
+
+}
+
+
+
+button{
+
+    background:#222;
+
+    color:white;
+
+    border:none;
+
+    padding:12px;
+
+    cursor:pointer;
+
+    border-radius:8px;
+
+}
+
+
+
+button:hover{
+
+    opacity:.8;
+
+}
+
+
+
+.form-box{
+
+    width:450px;
+
+    background:white;
+
+    margin:50px auto;
+
+    padding:30px;
+
+    border-radius:15px;
+
+}
+
+
+
+input,textarea{
+
+    width:100%;
+
+    padding:12px;
+
+    margin:10px 0;
+
+    border:1px solid #ccc;
+
+    border-radius:8px;
+
+}
+
+
+textarea{
+
+    height:100px;
+
+}
+.filters{
+
+margin:20px 0;
+
+display:flex;
+
+gap:10px;
+
+}
+
+
+.filters input,
+.filters select{
+
+padding:10px;
+
+}
